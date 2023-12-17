@@ -1,8 +1,17 @@
-npx create-react-app redmango --template typescript
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+> npx create-react-app redmango --template typescript
+
+## Installed Bootstrap & Bootstrap-Icons
+
+> npm i bootstrap@5.3.2 (https://getbootstrap.com/)
+> npm i bootstrap-icons (https://icons.getbootstrap.com/)
+
+## API used
+
+https://redmangoapi.azurewebsites.net/index.html
 
 ## Available Scripts
 
@@ -12,9 +21,6 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
 ### `npm test`
 

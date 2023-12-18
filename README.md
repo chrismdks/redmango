@@ -13,6 +13,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 https://redmangoapi.azurewebsites.net/index.html
 
+## Redux Toolkit
+
+> npm i @reduxjs/toolkit react-redux
+
 ## Available Scripts
 
 In the project directory, you can run:

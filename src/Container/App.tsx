@@ -4,18 +4,20 @@ import { Home, NotFound, MenuItemDetails } from '../Pages';
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
-
   return (
     <div>
-      <Header/>
+      <Header />
       <div className='pb-5'>
         <Routes>
-          <Route path="/" element={<Home/>}></Route>
-          <Route path="/menuItemDetails/:menuItemId" element={<MenuItemDetails/>}></Route>
-          <Route path="/*" element={<NotFound/>}></Route>
+          <Route path='/' element={<Home />}></Route>
+          <Route
+            path='/menuItemDetails/:menuItemId'
+            element={<MenuItemDetails />}
+          ></Route>
+          <Route path='/*' element={<NotFound />}></Route>
         </Routes>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

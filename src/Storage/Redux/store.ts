@@ -1,8 +1,8 @@
-import { configureStore } from "@reduxjs/toolkit";
-import { menuItemReducer } from "./menuItemSlice";
+import { configureStore } from '@reduxjs/toolkit';
+import { menuItemReducer } from './menuItemSlice';
 
 const store = configureStore({
-  reducer:{
+  reducer: {
     menuItemStore: menuItemReducer,
   },
 });
